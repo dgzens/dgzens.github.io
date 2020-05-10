@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.dgzens.com/"/>
-  <updated>2020-05-09T13:41:26.462Z</updated>
+  <updated>2020-05-10T02:51:49.083Z</updated>
   <id>https://www.dgzens.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>暗黑的诱惑</title>
+    <link href="https://www.dgzens.com/posts/2bae3b41/"/>
+    <id>https://www.dgzens.com/posts/2bae3b41/</id>
+    <published>2020-03-20T13:08:00.000Z</published>
+    <updated>2020-05-10T02:51:49.083Z</updated>
+    
+    <content type="html"><![CDATA[<p>暗黑的诱惑</p><p>黑夜给了我黑色的眼睛</p><p>我却用它来寻找光明……</p><p><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104656.png" alt=""></p><p>前些天当微信终于宣布将在新版添加“Dark Mode”，不管它是屈从于Apple的压力，抑或是顺应一众用户的需求，可以说在这场“暗黑时代”博弈中，已经没有什么APP可以阻挡它的“魔爪”了；</p><p>当黑色成为一种时尚，成为一种潮流，甚至成为一种趋势时，暗黑的GUI成为了我用电脑、手机和平板必备的界面，无“黑”不欢，无暗黑，不兄弟！</p><p>今天，我们就来将最常用的网络浏览器变成自己心心念念的“暗黑模式”吧！<br> <a id="more"></a><br>暗黑模式设置方法：</p><p>No 1 挖掘浏览器内置的DarkMode</p><p>03 / 01 命令行 - 皮肤 - 隐藏功能</p><p>No 2 利用第三方扩展程序或软件</p><p>03 / 02 软件 - 扩展程序 - 其它</p><p>No 3 神奇的脚本</p><p>01 / 03 油猴脚本</p><p>内置DarkMode功能</p><p>现在新版浏览器，无论是Chrome、Firefox或者Safari都内置了Dark Mode，只是因为还有大量页面在暗黑模式下会产生错位、色彩失真等严重问题，才没有那么“明目张胆”完全使用它，毕竟DVI、CSS等网页制作技术与规范并不是网站设计者所能全部遵循的。如何挖掘出浏览器自身的“黑暗”面目呢？</p><p>要点 | –force-dark-mode, –enable-features=WebUIDarkMode</p><p><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104033.png" alt=""></p><p>操作：命令行</p><p>1 | 命令行：为Chrome类浏览器新建一快捷方式，右击该快捷方式，点属性，在目标字段后面加上–force-dark-mode即可；如果没有效果，可添加多一个参数–enable-features=WebUIDarkMode 即可。简单、直接……呃，粗暴！<br><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104158.png" alt=""></p><p>操作：暗黑皮肤设置</p><p>2 | 皮肤/主题设置：软件大多有皮肤Skin设置，不同的皮肤/主题给人不同的感受，所以在“看脸”时代里这些设置还是挺有市场的。Chrome类浏览器的“设置”中打开“外观”项中的“主题背景”，可以进入 Chrome网上应用店找你喜欢的皮肤，Ps:你得能进入谷歌的网站才行喔:) 输入 Dark 搜索，会有很多暗黑主题供选择，我选择的是Morpheon Dark</p><p>而Firefox浏览器中本身就有明亮与深色两种色调供选择，方便许多；苹果Mac OS X中只要设置了系统暗黑模式，Safari便已是黑色的GUI界面了！注意：只是界面，网页内容并不黑哟！移动端Adroid10、iOS13的浏览器也会随着系统模式而改变GUI，当然Android还需要要开发者模式中启用覆盖“强制启用 SmartDark 功能”的设置，这样UC类的浏览器也能有黑色界面啦！<br><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104228.png" alt=""></p><p>操作：chrome://flags设置</p><p>3 | Chrome 类浏览器之所以攻城略地，一统江湖，甚至让微软也屈服于它的“淫威”之下，除了强大的扩展程序外，还有很多体贴的小设计，比如强大而复杂的 flags 试验性功能与设置。</p><p>具体到DarkMode设置，只需要打开chrome://flags 页面后，输入Dark搜索，Force Dark Mode for Web Contents 选项中选取 Enable ，再点击 Relaunch 重新装载按钮，浏览器便会重启然后变成你想要的暗黑模式。</p><p>Ps: Firefox中可设置about:config 达到一样的效果，只须右键选择“新建”-“整数”，新建一个整数项：ui.systemUsesDarkTheme 并赋值 1。</p><p>插件/软件法</p><ol><li>扩展程序/插件</li></ol><p>三大浏览器都有扩展程序可以利用，通过扩展程序可以实现很多功能，极大地拓展了浏览器的应用范围和功能支持。</p><p>Chrome 扩展功能无疑是最强最多的，进入 Chrome 网上应用店 输入 Dark 再选取扩展程序，便会找到数十个与暗黑有关的插件，推荐以下两个效果相对比较好，且网页兼容性比较强的扩展：Super Dark Mode 和 Dark Reader<br><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104252.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104308.png" alt=""></p><p>我觉得Dark Reader效果更好一些，而且可调节性更强，对绝大多数网页都能清晰而完整显现，设置也比较直观，可控性良好！</p><ol start="2"><li>Safari</li></ol><p>Safari界面可以“黑”得颇为养眼，但页面内容却是“白”得惨不忍睹，黑白配实在有点让人抓狂！</p><p>好在有Dark Mode for Safari 的横空出世，才让这一尴尬不至于让标榜时尚至上的Apple 脸面全失，只是这款插件/软件是收费的，我找到了它的 TNT 破解版安装后，UI与内容都黑得相当融洽与美好~~</p><p>下载DMG包直接安装，运行后会自动进入Safari偏好设置的扩展项，勾选启用即可。<br><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104323.png" alt=""></p><p>然后，你就会看到整个浏览器界面一片漆黑，哦，Nooooo，是暗黑效果<del>~</del></p><p>油猴脚本</p><p>油猴脚本？你竟然没听说过它？<br>年轻人，看来你是白上了这么多年的网呀！</p><p>要使用油猴必须先安装油猴或暴力猴扩展程序，它支持三大浏览器和部分移动浏览器如kiwi、三星浏览器等。禅宗认为油猴是浏览器中最有用最强悍的扩展，没有之一，不接受反驳，因为你无力举证，咳咳</p><p>有了油猴扩展是没有任何效用的，还得给它加上奇特的脚本，就能获得极爽的浏览体验，华而有实，为所欲为<del>~</del></p><p>脚本网站推荐：<a href="http://www.greasyfork.org">http://www.greasyfork.org</a></p><p>打开脚本列表，请尽情高呼，OoooooooooooO 数千的脚本，各种各样的功能，VIP、破解、免费……不一而足，慢慢享受它带来的美好与自由吧！</p><p><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104340.png" alt=""></p><p>暗黑模式脚本</p><p>暗黑模式怎么能逃得了脚本的追击？点击右上角的搜索框，输入Dark一搜便能找到数个脚本，接下来只需要简单点两三下鼠标，你就可以享用脚本带来的快感了！</p><p>推荐 I Dark++ 不是全黑，却很养眼的一种灰朦效果</p><p>推荐 II 黑暗模式页面右下角有一个圆形按钮，点击一下便可以切换暗黑／明亮模式</p><p>脚本的好处在于通用性，不满意？自己调试一下修改一下，js脚本的好处便会体现出来，伸缩性强的特点会让你爱不释手的<del>~</del></p><p>最终总结</p><p>选择</p><p>内置方法: 基于浏览器本身，占用资源较少，但调整起来相对麻烦<br>选择条件: 当内置成为选项时，当然选择它啦</p><p>插件法: 可控性更好，能基本适应不同的网站<br>选择方式: 需要多方调试，找出某些网站不同的设置方可达到良好的显示效果</p><p>脚本法: 通用！通用！通用！通杀三大浏览器<br>选择:目前没有完美适用于全体网站的脚本</p><p>我的最终方案</p><p>Windows中的CentBrowser（百分浏览器）<br>选择了扩展程序 Dark Reader，毕竟目前用Windows进行办公与学习比较多，伸缩性强兼容性不错的扩展是最简洁有效的。</p><p>HP 品牌的Apple系统 MacOSX 10.15.3（黑苹果） Safari<br>黑苹果也是我经常使用的系统，当然也主要是为了装13以及来处理一些视频流什么的，事实上Mac中我也不用Safari，转而用的Chrome内核的第三方浏览器。Safari的话当然是 Dark Mode for Safari TNT 破解版。</p><p>一众Linux(Firefox)<br>我的PC电脑中目前装了三十几个Linux系统，几乎囊括了目前所有的Linux分支，还有BSD开源系统，它们我都是用系统默认的 Firefox 火狐浏览器，当然界面几乎全是暗黑模式了，浏览器的暗黑则选择了脚本为主的方案，为的是同步它让所有的系统浏览器都能几乎完全统一的，毕竟脚本是最稳妥的做法。<br><img src="https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104356.png" alt=""></p><p>Ps: Ubuntu 20.04将于2020年4月23日发布，这是一个功能与界面都有极大提升值得期待的发行版本哦<del>~</del></p><p>一加7Pro浏览器（UC类）<br>安卓机器当然用暗黑模式，开发者模式打开强制暗黑功能，便能一“黑”永逸一黑到底了！</p><p>——暗黑模式！暗黑模式就要全面来啦！这是用户的呼喊，在时尚的大路上，在保护眼睛的选择里，孤傲地召唤；这是胜利的预言家在叫喊：<br>让暗黑模式来得更猛烈些吧！！！</p><ul><li>暗黑模式 -</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;暗黑的诱惑&lt;/p&gt;
+&lt;p&gt;黑夜给了我黑色的眼睛&lt;/p&gt;
+&lt;p&gt;我却用它来寻找光明……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/dgzens/blog_image/img/20200510104656.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;前些天当微信终于宣布将在新版添加“Dark Mode”，不管它是屈从于Apple的压力，抑或是顺应一众用户的需求，可以说在这场“暗黑时代”博弈中，已经没有什么APP可以阻挡它的“魔爪”了；&lt;/p&gt;
+&lt;p&gt;当黑色成为一种时尚，成为一种潮流，甚至成为一种趋势时，暗黑的GUI成为了我用电脑、手机和平板必备的界面，无“黑”不欢，无暗黑，不兄弟！&lt;/p&gt;
+&lt;p&gt;今天，我们就来将最常用的网络浏览器变成自己心心念念的“暗黑模式”吧！&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://www.dgzens.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="系统" scheme="https://www.dgzens.com/categories/%E6%8A%80%E6%9C%AF/%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="暗黑模式" scheme="https://www.dgzens.com/tags/%E6%9A%97%E9%BB%91%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>叠韵，双悲—— “清代第一女词人”贺双卿词赏析</title>
